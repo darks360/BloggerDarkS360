@@ -1,8 +1,10 @@
+
+
 /* Main Card */
 .wc-app-wrap{
   max-width:500px;
   margin:10px auto;
-  padding:22px;
+  padding:20px;
   border-radius:28px;
   background:linear-gradient(180deg,#0f1b2d,#1f3452);
   box-shadow:0 20px 45px rgba(0,0,0,.4);
@@ -13,9 +15,11 @@
   position:relative;
   display:flex;
   align-items:center;
+  width:100%;
+  line-height:15px;
   gap:14px;
-  padding:18px 18px 18px 70px;
-  margin-bottom:14px;
+  margin-top:5px;
+  padding:12px 0 12px 60px;
   border-radius:18px;
   background:#2c3e52;
   overflow:hidden;
@@ -27,23 +31,25 @@
   position:absolute;
   left:0;
   top:0;
-  width:56px;
+  width:55px;
   height:100%;
   background:#ff9f00;
+  z-index:2;
   border-radius:18px 0 0 18px;
 }
 
 /* Text */
 .wc-sp b{
   display:block;
-  font-size:14px;
+  font-size:13px;
   color:#ffcc70;
-  margin-bottom:4px;
+  margin:0px;
+  padding: 0px;
 }
 
 .wc-sp span{
   display:block;
-  font-size:14px;
+  font-size:9px;
   color:#ffffff;
   opacity:1;
   word-break:break-word;
