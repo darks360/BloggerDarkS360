@@ -1,0 +1,79 @@
+/* Main Card */
+.wc-app-wrap{
+  max-width:500px;
+  margin:10px auto;
+  padding:22px;
+  border-radius:28px;
+  background:linear-gradient(180deg,#0f1b2d,#1f3452);
+  box-shadow:0 20px 45px rgba(0,0,0,.4);
+}
+
+/* Row */
+.wc-sp{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:18px 18px 18px 70px;
+  margin-bottom:14px;
+  border-radius:18px;
+  background:#2c3e52;
+  overflow:hidden;
+}
+
+/* Left Icon Strip */
+.wc-sp::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  width:56px;
+  height:100%;
+  background:#ff9f00;
+  border-radius:18px 0 0 18px;
+}
+
+/* Text */
+.wc-sp b{
+  display:block;
+  font-size:14px;
+  color:#ffcc70;
+  margin-bottom:4px;
+}
+
+.wc-sp span{
+  display:block;
+  font-size:14px;
+  color:#ffffff;
+  opacity:1;
+  word-break:break-word;
+}
+
+/* Highlight rows */
+.icon-versionicon,
+.icon-modinfoicon{
+  background:linear-gradient(135deg,#ffb300,#ffcc33);
+}
+
+.icon-versionicon b,
+.icon-modinfoicon b,
+.icon-versionicon span,
+.icon-modinfoicon span{
+  color:#1a1a1a;
+}
+
+/* Download Button */
+.wc-apk-btn{
+  display:block;
+  width:100%;
+  margin-top:30px;
+  padding:16px;
+  text-align:center;
+  border-radius:50px;
+  font-size:16px;
+  font-weight:700;
+  color:#ffffff;
+  text-decoration:none;
+  background:linear-gradient(135deg,#00c6ff,#0072ff);
+  box-shadow:0 12px 30px rgba(0,114,255,.5);
+}
